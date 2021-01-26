@@ -13,11 +13,6 @@
   display: flex;
 }
 
-#site_header {
-  background-color: white;
-  height: 400px;
-}
-
 #navbar {
   background-color: white;
   height: 80px;
@@ -56,4 +51,9 @@
 }
 #navbar button img {
   height: 15px;
+}
+
+#site_header {
+  background-color: white;
+  height: 400px;
 }
