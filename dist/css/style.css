@@ -13,6 +13,45 @@
   display: flex;
 }
 
+#site_header {
+  color: #58402C;
+}
+#site_header img {
+  height: 300px;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+#site_header h1 {
+  line-height: 60px;
+  font-size: 38px;
+}
+#site_header h5 {
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+#site_header button {
+  background-color: #2C4792;
+  color: white;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#site_header button:hover {
+  background-color: #58402C;
+  cursor: pointer;
+}
+#site_header button img {
+  height: 15px;
+  padding: 0 2px;
+}
+#site_header p {
+  font-size: 14px;
+}
+
 #navbar {
   background-color: white;
   height: 80px;
@@ -21,7 +60,7 @@
   justify-content: space-between;
   align-items: center;
 }
-#navbar img {
+#navbar .logo {
   height: 25px;
 }
 #navbar a {
@@ -53,7 +92,6 @@
   height: 15px;
 }
 
-#site_header {
-  background-color: white;
-  height: 400px;
+#jumbotron {
+  padding: 50px 0;
 }
