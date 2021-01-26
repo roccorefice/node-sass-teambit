@@ -7,10 +7,15 @@
 
 
 .container{
-    width: 900px;
+    width: 998px;
     margin: auto;
 }
 
 .d_flex{
     display: flex;
+    flex-wrap: nowrap;
+}
+
+.hidden{
+    display: none;
 }

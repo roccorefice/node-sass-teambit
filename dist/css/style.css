@@ -5,22 +5,60 @@
 }
 
 .container {
-  width: 900px;
+  width: 998px;
   margin: auto;
 }
 
 .d_flex {
   display: flex;
+  flex-wrap: nowrap;
 }
 
+.hidden {
+  display: none;
+}
+
+/*** style for tablet (medium) screen ***/
+@media all and (min-width: 551px) and (max-width: 998px) {
+  .titles {
+    text-align: center;
+  }
+
+  .d_flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #site_header .titles h1 {
+    line-height: 80px;
+    font-size: 54px;
+  }
+  #site_header .titles h5 {
+    line-height: 32px;
+    font-size: 24px;
+  }
+  #site_header .banner {
+    padding-top: 50px;
+    margin: auto;
+    height: 500px;
+  }
+  #site_header .hidden {
+    display: block;
+  }
+  #site_header .menu {
+    display: none;
+  }
+  #site_header .hamburger {
+    font-size: 26px;
+  }
+}
+/*** style for smartphone (small) screen ***/
 #site_header {
   color: #58402C;
 }
 #site_header img {
   height: 300px;
-  position: relative;
-  top: 0;
-  right: 0;
 }
 #site_header h1 {
   line-height: 60px;
