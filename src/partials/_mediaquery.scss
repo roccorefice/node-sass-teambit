@@ -40,6 +40,19 @@
             font-size: 26px;
         }
     }
+
+     #site_main{
+
+        .solutions{
+            .d_flex{
+                display: flex;
+                flex-direction: column;
+            }
+            .card{
+                margin: 20px 0;
+            }
+        }
+    }
 }
     
 
@@ -80,6 +93,18 @@
         }
         .hamburger {
             font-size: 26px;
+        }
+    }
+
+    #site_main{
+        .solutions{
+            .d_flex{
+                display: flex;
+                flex-direction: column;
+            }
+            .solution_first_row .card p{
+                margin-bottom: 40px;
+            }
         }
     }
 }
