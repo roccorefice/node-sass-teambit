@@ -1,35 +1,56 @@
 // reset
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-.container{
+.container {
     width: 998px;
     margin: auto;
 }
-.width_100{
-    width: 100%;
-}
 
-.d_flex{
+.d_flex {
     display: flex;
     flex-wrap: nowrap;
 }
-.d_flex_col{
+
+.d_flex_col {
     display: flex;
     flex-direction: column;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
-.title_section{
+.title_section {
     color: $text_color;
     line-height: 40px;
     font-size: 24px;
     margin: 50px;
+}
+
+.p_section {
+    color: $text_color;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.link_section {
+    color: $blue;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 50px;
+}
+
+.position_left {
+    position: relative;
+    left: -10%
+}
+
+.position_right {
+    position: relative;
+    right: -10%
 }
