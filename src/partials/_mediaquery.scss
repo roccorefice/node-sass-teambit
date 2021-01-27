@@ -1,49 +1,87 @@
-/*** style for tablet (medium) screen ***/
-@media all and (min-width: 551px) and (max-width: 998px){
-
-    .titles{
+/*** style for smartphone (small) screen ***/
+@media screen and (max-width: 549px) {
+    .titles {
         text-align: center;
     }
-    .d_flex{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    .d_flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
     }
 
     #site_header {
-        .titles{
+        .titles {
+            h1 {
+                line-height: 90px;
+                font-size: 90px;
+                margin: 30px;
+            }
+            h5 {
+                line-height: 60px;
+                font-size: 40px;
+                margin: 20px 50px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .banner {
+            padding-top: 50px;
+            margin: auto;
+            height: 600px;
+        }
+        .hidden {
+            display: block;
+        }
+        .menu {
+            display: none;
+        }
+        .hamburger {
+            font-size: 26px;
+        }
+    }
+}
+    
+
+
+
+/*** style for tablet (medium) screen ***/
+@media screen and (min-width: 550px) and (max-width: 998px) {
+    .titles {
+        text-align: center;
+    }
+    .d_flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #site_header {
+        .titles {
             h1 {
                 line-height: 80px;
                 font-size: 54px;
             }
-            h5{
+            h5 {
                 line-height: 32px;
                 font-size: 24px;
             }
         }
-
         .banner {
             padding-top: 50px;
             margin: auto;
             height: 500px;
         }
-        .hidden{
+        .hidden {
             display: block;
         }
-        .menu{
+        .menu {
             display: none;
         }
-        .hamburger{
+        .hamburger {
             font-size: 26px;
         }
-       
     }
-   
-
 }
 
-/*** style for smartphone (small) screen ***/
-@media all and (max-width: 550px){
 
-
-}
